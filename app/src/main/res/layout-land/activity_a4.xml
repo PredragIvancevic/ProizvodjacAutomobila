@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azure"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    tools:context=".A4">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="@string/snagaMotora" />
+
+    <RadioGroup
+        android:id="@+id/RG4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/prvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/snaga1" />
+
+        <RadioButton
+            android:id="@+id/drugi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snaga2" />
+
+        <RadioButton
+            android:id="@+id/treci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snaga3" />
+
+        <RadioButton
+            android:id="@+id/cetvrti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snaga4" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Posalji1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RG4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/posalji" />
+
+    <EditText
+        android:id="@+id/NoviModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Posalji1"
+        android:hint="@string/hint"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/VratiSe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NoviModel"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/vratiSe" />
+
+    <Button
+        android:id="@+id/Zavrsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VratiSe"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/zavrsi" />
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

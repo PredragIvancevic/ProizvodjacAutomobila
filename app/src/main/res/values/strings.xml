@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Audi Srbija</string>
+    <string name="dobrodosli">Dobrodošli!</string>
+    <string name="dugmeNaruci">NARUČI</string>
+    <string name="izborModela">Model</string>
+    <string name="A4">A4</string>
+    <string name="A5">A5</string>
+    <string name="izborGoriva">Gorivo</string>
+    <string name="dizel">Dizel</string>
+    <string name="benzin">Benzin</string>
+    <string name="DodatnaOprema">Dodatna oprema</string>
+    <string name="xenon">Xenon svetla</string>
+    <string name="parking">Parking senzori</string>
+    <string name="dugmeProsledi">PROSLEDI</string>
+    <string name="snaga1">120ks</string>
+    <string name="snaga2">136ks</string>
+    <string name="snaga3">143ks</string>
+    <string name="snaga4">170ks</string>
+    <string name="snaga5">177ks</string>
+    <string name="snagaMotora">Snaga motora</string>
+    <string name="posalji">POŠALJI</string>
+    <string name="zavrsi">ZAVRŠI</string>
+    <string name="vratiSe">VRATI SE</string>
+    <string name="Toast1">Uskoro ćete dobiti informacije o modelu od</string>
+    <string name="Toast2">na lageru.</string>
+    <string name="model">Izabrali ste model:</string>
+    <string name="oprema">Dodatna oprema:</string>
+    <string name="novaNarudzbina">Nova narudžbina</string>
+    <string name="hint">Nova narudžbina - A4 ili A5</string>
+</resources>
